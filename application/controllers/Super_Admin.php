@@ -189,9 +189,12 @@ class Super_Admin extends CI_Controller {
             $this->session->set_userdata($sdata); 
             redirect('Super_Admin/add_sub_menu');
         }
-        
+       
+    
     }
-
+ public function voi(){
+       $data=array();     
+        }
     //--------------------------End News sub Menu----------------------------------------
    
     
